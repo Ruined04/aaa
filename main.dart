@@ -24,7 +24,7 @@ class myColombApp extends StatelessWidget {
           children: [
             Row(children: [
               Text("1- "),
-              Text("Red Dead Redemption 2 - Rockstar "),
+              Expanded(child: Text("Red Dead Redemption 2 - Rockstar  ")),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
                   onPressed: () {
@@ -34,7 +34,7 @@ class myColombApp extends StatelessWidget {
             ),
             Row(children: [
               Text("2- "),
-              Text("GTA V - Rockstar "),
+              Expanded(child: Text("GTA V - Rockstar ")),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
                   onPressed: () {
@@ -44,7 +44,7 @@ class myColombApp extends StatelessWidget {
             ),
             Row(children: [
               Text("3- "),
-              Text("Cyberpunk 2077 - CD Red Project "),
+              Expanded(child: Text("Cyberpunk 2077 - CD Red Project ")),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
                   onPressed: () {
@@ -54,7 +54,7 @@ class myColombApp extends StatelessWidget {
             ),
             Row(children: [
               Text("4- "),
-              Text("Sifu - Sloclap "),
+              Expanded(child: Text("Sifu - Sloclap ")),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
                   onPressed: () {
@@ -64,7 +64,7 @@ class myColombApp extends StatelessWidget {
             ),
             Row(children: [
               Text("5- "),
-              Text("Elden Ring - FromSoftware "),
+              Expanded(child: Text("Elden Ring - FromSoftware ")),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.blue,foregroundColor: Colors.white),
                   onPressed: () {
